@@ -4,9 +4,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int amount = amountPeople(scanner);
-        //System.out.println(scanner.nextFloat());
-        //System.out.println(scanner.next());
-        //System.out.println(scanner.nextInt());
         Calculator calculator = new Calculator(amount);
         calculator.addItem(scanner);
         calculator.printCheck();
